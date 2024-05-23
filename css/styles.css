@@ -5,6 +5,9 @@ body {
 }
 
 /* ----------------HEADER----------------*/
+.header { 
+    border-bottom: 1px solid #e7e9fc;
+}
  .logo-web {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
