@@ -6,9 +6,16 @@ body {
     background-color: #FFFFFF;
 }
 
-.container { width: 100%;
+.container { width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 /* ----------------HEADER----------------*/
 .header-link {
     display: flex;
@@ -21,6 +28,7 @@ display: flex;
 width: 1158px;
 padding: 0 15px 0 15px;
 margin: 0 auto;
+align-items: center;
 }
 
 .header-nav { display: flex;
@@ -49,6 +57,8 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
  }
 
  .link-header:hover,
@@ -58,6 +68,7 @@ align-items: center;
 
  .address {
     font-style: normal;
+    margin-left: auto;
  }
 
  .address-list {
