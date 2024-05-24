@@ -167,39 +167,56 @@ margin-right: 24px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
-    
+
 }
 /*------------------------------------*/
 
 /*---------------section3---------------*/
-.team {
+.sec-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
-.team-dscr {
+.sec-three-dscr {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.team-list {
-    background-color: #FFFFFF;
+.sec-three-ul {
+display: flex;
+gap: 24px;
 }
+
+.sec-three-li {
+    background-color: #FFFFFF;
+    width: calc((100 - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.worker {
+padding: 32px;
+}
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-prg {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 /*------------------------------------*/
 
