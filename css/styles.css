@@ -1,9 +1,5 @@
 img { display: block;}
 
-.header-div { display: flex;
-container: ;
-width: 1158px;}
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -11,6 +7,21 @@ body {
 }
 
 /* ----------------HEADER----------------*/
+.header-link {
+    display: flex;
+    gap: 40px;
+}
+
+.header-div { display: flex;
+container: ;
+width: 1158px;
+padding: 0 15px 0 15px;
+}
+
+.header-nav { display: flex;
+align-items: center;
+}
+
 .header { 
     border-bottom: 1px solid #e7e9fc;
 }
@@ -22,7 +33,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
- }
+        margin-right: 76px; }
 
  .studio {
     color: #2e2f42;
