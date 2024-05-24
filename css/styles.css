@@ -16,6 +16,19 @@ ul, ol {
     padding: 0;
     margin: 0;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+}
+
 /* ----------------HEADER----------------*/
 .header-link {
     display: flex;
@@ -91,12 +104,12 @@ align-items: center;
 /*---------------BODY---------------*/
 
 /*---------------section1---------------*/
-.main {
+.sec-one {
     background-color: #2e2f42;
     padding: 188px 0;
 }
 
-.main-prg {
+.sec-one-prg {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -105,7 +118,7 @@ align-items: center;
     max-width: 496px;
 }
 
-.main-btn {
+.sec-one-btn {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -121,25 +134,40 @@ align-items: center;
     border-radius: 4px;
 }
 
-.main-btn:hover,
-.main-btn:focus {
+.sec-one-btn:hover,
+.sec-one-btn:focus {
     background-color: #404bbf;
 } 
 /*------------------------------------*/
 
 /*---------------section2---------------*/
-.features {
+.sec-two {
+    padding: 120px 0;
+}
+.sec-two-ul {
+display: flex;
+gap: 24px;
+margin-right: 24px;
+}
+
+.sec-two-li {
+    width: calc((100% - 72px)/ 4);
+}
+
+.sec-two-features {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
-.features-prg {
+.sec-two-prg {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
+    
 }
 /*------------------------------------*/
 
