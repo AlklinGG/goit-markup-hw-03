@@ -10,12 +10,14 @@ body {
 .header-link {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-div { display: flex;
-container: ;
+container:;
 width: 1158px;
 padding: 0 15px 0 15px;
+margin: 0 auto;
 }
 
 .header-nav { display: flex;
@@ -53,6 +55,11 @@ align-items: center;
 
  .address {
     font-style: normal;
+ }
+
+ .address-list {
+    display: flex;
+    gap: 40px;
  }
 
  .address-link {
